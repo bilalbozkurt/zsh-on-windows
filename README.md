@@ -5,7 +5,10 @@
 - Install Ubuntu from Windows Store. https://www.microsoft.com/store/productId/9PDXGNCFSCZV 
 - Run Ubuntu and configure for the first time. On Ubuntu: 
     - `sudo apt install zsh`
-    - Install oh-my-zsh from https://github.com/ohmyzsh/ohmyzsh
+    - Install oh-my-zsh. Details: https://github.com/ohmyzsh/ohmyzsh
+        ```
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        ```
     - Clone my oh-my-zsh-config from https://github.com/bilalbozkurt/oh-my-zsh-config
     - Type `nano .zshrc` and edit this line with your username: `export ZSH="/home/`**bilal**`/.oh-my-zsh"` 
     - Copy `.oh-my-zsh` and `.zshrc` to `~/`
