@@ -20,27 +20,27 @@
         exec zsh
         fi
         ```
-    - On Windows, install Windows Terminal https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
-    - Open Terminal -> Settings -> Profiles -> Add a new profile -> Select Ubuntu or WSL -> Duplicate
-    - Change name and tab title to `ZSH`
-    - Run a ZSH shell. 
-    - Type ``ls`` 
-    ![pic1](resources/pic1.png)
-    - Let's remove unreadable bright highlights.
-        ```
-        LS_COLORS='ow=01;36;
-        export LS_COLORS
-        ```
-    - Type ``ls`` again.
-    ![pic2](resources/pic2.png)
-    - But it is not permanent. Let's make it permanent.
-    - Type `nano ~/.zshrc` and add following lines after `export ZSH="..."`
-        ```
-        #Remove LS directory highlights
-        LS_COLORS='ow=01;36;'
-        export LS_COLORS
-        ```
-    - Make the shell default
+- On Windows, install Windows Terminal https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
+- Open Terminal -> Settings -> Profiles -> Add a new profile -> Select Ubuntu or WSL -> Duplicate
+- Change name and tab title to `ZSH`
+- Run a ZSH shell. 
+- Type ``ls`` 
+![pic1](resources/pic1.png)
+- Let's remove unreadable bright highlights.
+    ```
+    LS_COLORS='ow=01;36;
+    export LS_COLORS
+    ```
+- Type ``ls`` again.
+![pic2](resources/pic2.png)
+- But it is not permanent. Let's make it permanent.
+- Type `nano ~/.zshrc` and add following lines after `export ZSH="..."`
+    ```
+    #Remove LS directory highlights
+    LS_COLORS='ow=01;36;'
+    export LS_COLORS
+    ```
+- Make the shell default
 
 ## Remarks
 - Your installed apps on Windows will work but you need to specify its extension.
