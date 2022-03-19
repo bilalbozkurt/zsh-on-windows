@@ -29,7 +29,7 @@
 ![pic1](resources/pic1.png)
 - Let's remove unreadable bright highlights.
     ```
-    LS_COLORS='ow=01;36;
+    LS_COLORS='ow=01;36;'
     export LS_COLORS
     ```
 - Type ``ls`` again.
