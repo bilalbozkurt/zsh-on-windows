@@ -9,7 +9,7 @@
     - Clone my oh-my-zsh-config from https://github.com/bilalbozkurt/oh-my-zsh-config
     - Type `nano .zshrc` and edit this line with your username: `export ZSH="/home/`**bilal**`/.oh-my-zsh"` 
     - Copy `.oh-my-zsh` and `.zshrc` to `~/`
-    - Clone powerlevel10k https://github.com/romkatv/powerlevel10k
+    - Clone powerlevel10k. Details: https://github.com/romkatv/powerlevel10k
         ```
         git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
         echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
