@@ -46,5 +46,5 @@
 - Your installed apps on Windows will work but you need to specify its extension.
     - eg. `dotnet` command will return an error but `dotnet.exe` command won't.
     - With this trick you can combine Windows commands and Linux commands together. Try `ipconfig.exe | grep IPv4` Further reading: https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-14951
-- It uses Windows Subsystem for Linux (WSL) and it's shell.
+- It uses Windows Subsystem for Linux (WSL) and its shell.
 
