@@ -7,13 +7,14 @@
     - `sudo apt install zsh`
     - Install oh-my-zsh from https://github.com/ohmyzsh/ohmyzsh
     - Clone my oh-my-zsh-config from https://github.com/bilalbozkurt/oh-my-zsh-config
-    - Edit `.zshrc` and change `export ZSH="/home/bilal/.oh-my-zsh"` bilal to your user name.
+    - Type `nano .zshrc` and edit this line with your username: `export ZSH="/home/`**bilal**`/.oh-my-zsh"` 
     - Copy `.oh-my-zsh` and `.zshrc` to `~/`
     - Clone powerlevel10k 
-        - `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k`
-           `echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
-    - Make ZSH default:
-        - `nano ~/.bashrc`
+        ```
+        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+        echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+        ```
+    - To make ZSH default shell, type `nano ~/.bashrc` and add following lines to the beginning:
         ```
         #Launch ZSH
         if [ -t 1 ]; then
