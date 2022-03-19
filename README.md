@@ -1,4 +1,4 @@
-# Install ZSH on Windows Computer
+# Using ZSH on a Windows Computer
 ![header](resources/header.png)
 
 - Install WSL https://docs.microsoft.com/en-us/windows/wsl/install
