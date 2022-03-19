@@ -1,4 +1,5 @@
 # Install ZSH on Windows Computer
+![header](resources/header.png)
 
 - Install WSL https://docs.microsoft.com/en-us/windows/wsl/install
 - Install Ubuntu from Windows Store. https://www.microsoft.com/store/productId/9PDXGNCFSCZV 
